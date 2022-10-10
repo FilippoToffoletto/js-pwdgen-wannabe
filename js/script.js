@@ -9,7 +9,7 @@ const userPreferColor = prompt('Prefer color?');
 const userPreferNumber = prompt('Prefer number?');
 
 output = `
-    <strong>La tua password è</strong><br>
+    <strong>La tua password è:</strong><br>
     ${userFirstName}${userLastName}${userPreferColor}${userPreferNumber}.
 `;
 
